@@ -6,7 +6,9 @@ Objetivo: Esta script fue creada para enmascarar o anonizar los datos de una tab
    names_female.cfg: describe nombres femeninos, names_male.cfg:describe nombres masculinos, last_names.cfg: describe apellidos, 
    cities.cfg: describe direcciones; al final evita "Entregar" datos reales para la implementación de nuevas funcionalidades, marketing etc.
 Creada por: Gilberto Castillo,<gilberto.castillo@etecsa.cu> La habana, 2019
-  
+
+Debe crear los archivos: names_female.cfg, names_male.cfg, last_names.cfg con su información y guardarlos en la misma carpeta donde tiene el pgmask.py
+
   Ejemplo de su uso: 
   python3 pgmask.py 'localhost' '5432' 'postgres' 'postgres' 'prueba' 'serv_basicos' 6
   
